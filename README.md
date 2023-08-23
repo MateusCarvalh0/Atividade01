@@ -1,1 +1,25 @@
 # Atividade01
+
+2. Como o conhecimento de linguagens de programação pode beneficiar toda a comunidade da computação?**
+O conhecimento de linguagens de programação é fundamental para a comunidade da computação, pois permite aos programadores comunicar ideias e soluções de maneira eficaz com o computador. Diferentes linguagens têm suas próprias características, paradigmas e domínios de aplicação. Compreender várias linguagens amplia a capacidade de resolver problemas de maneiras diferentes e eficientes. Isso ajuda na seleção da linguagem mais apropriada para um projeto específico, resultando em código mais legível, eficiente e de fácil manutenção. Além disso, um bom conhecimento de linguagens também facilita a colaboração em equipe, uma vez que os programadores podem compartilhar conhecimento e ideias com mais eficácia.
+
+7. Qual é a desvantagem de ter muitas características em uma linguagem?**
+Ter muitas características em uma linguagem de programação pode levar à complexidade excessiva. Isso pode tornar a linguagem difícil de aprender, entender e usar. A curva de aprendizado pode se tornar íngreme para novos programadores, e o código pode se tornar difícil de manter devido à multiplicidade de recursos. Além disso, a inclusão de muitas características pode aumentar a possibilidade de erros de programação e dificultar a detecção de bugs. Uma linguagem sobrecarregada também pode comprometer a legibilidade do código, tornando-o obscuro e difícil de compreender.
+
+8. Como a sobrecarga de operador definida pelo usuário pode prejudicar a legibilidade de um programa?**
+A sobrecarga de operador permite que um programador defina o comportamento de operadores (como +, -, *, etc.) para tipos de dados personalizados. Embora possa ser uma ferramenta poderosa, a sobrecarga excessiva de operadores pode prejudicar a legibilidade de um programa. Isso ocorre porque o significado de operadores familiares pode ser alterado de maneira inesperada, tornando o código confuso e difícil de entender. Os operadores, quando sobrecarregados, podem não seguir as convenções de uso comuns, o que pode confundir outros programadores que estão acostumados com o comportamento padrão dos operadores.
+
+9. Cite um exemplo da falta de ortogonalidade no projeto da linguagem C.**
+A ortogonalidade em linguagens de programação refere-se à capacidade de combinar diferentes recursos de maneira consistente e previsível. Um exemplo de falta de ortogonalidade na linguagem C é a regra de que os arrays podem ser usados como parâmetros de funções, mas não podem ser retornados como valores de funções. Isso cria uma assimetria, onde a passagem de arrays como parâmetros é fácil e natural, mas retorná-los de funções requer que o programador use ponteiros e alocação de memória dinâmica, introduzindo complexidade desnecessária.
+
+11. Que sentença de controle primitiva é usada para construir sentenças de controle mais complicadas em linguagens que não as têm?**
+A sentença de controle primitiva mais comum usada para construir sentenças de controle mais complicadas em linguagens que não as possuem é a instrução condicional `goto`. No entanto, o uso excessivo de `goto` pode levar a um código confuso e difícil de manter, pois pode causar saltos incondicionais para diferentes partes do programa. Como resultado, a legibilidade do código é prejudicada, e é mais difícil entender o fluxo de execução e rastrear erros.
+
+13. O que significa para um programa ser confiável?**
+Um programa confiável é aquele que produz resultados consistentes e corretos em uma variedade de condições e entradas. Isso significa que o programa executa suas funções conforme esperado, sem comportamentos imprevisíveis ou erros. A confiabilidade também inclui a capacidade de lidar com exceções e erros de maneira adequada, mantendo a integridade dos dados e fornecendo feedback adequado aos usuários.
+
+14. Por que verificar os tipos dos parâmetros de um subprograma é importante?**
+Verificar os tipos dos parâmetros de um subprograma é importante para garantir que os valores passados correspondam às expectativas do subprograma. Isso evita erros de tempo de execução que podem ocorrer se valores de tipos incompatíveis forem usados. A verificação de tipos também ajuda a prevenir comportamentos inesperados e bugs que podem surgir devido a operações inválidas ou incompatíveis com determinados tipos de dados.
+
+16. O que é o tratamento de exceções?**
+O tratamento de exceções é um mecanismo em linguagens de programação que permite que um programa lide com situações excepcionais ou erros que podem ocorrer durante a execução. Em vez de simplesmente falhar e encerrar o programa, o tratamento de exceções permite que o programa capture, sinalize e responda a essas situações de maneira controlada. Isso pode incluir a execução de ações de recuperação, registro de informações relevantes sobre a exceção e até mesmo a continuação da execução do programa em um estado consistente. O tratamento de exceções melhora a robustez do programa e a experiência do usuário, fornecendo feedback significativo sobre o que deu errado e como lidar com isso.
